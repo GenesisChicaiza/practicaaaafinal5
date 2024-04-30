@@ -1,7 +1,4 @@
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class Graph<V>{
     //Lista de adyacencia.
@@ -15,7 +12,10 @@ contrario.
  *
  ******************************************************************/
 public boolean addVertex(V v){
-    return true; //Este código hay que modificarlo.
+    if (!adjacencyList.containsKey(v)) {
+        adjacencyList.put(v, new HashSet<>());
+        return true; //Este código hay que modificarlo.
+    } return false;
 }
     /******************************************************************
      * Añade un arco entre los vértices `v1` y `v2` al grafo. En

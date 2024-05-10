@@ -1,11 +1,10 @@
 # practicaaaafinal5
 TITULO DESCRIPTIVO: 
- 
-Calculadora de distancia mas corta entre dos grafos.
 
+El código proporciona una implementación de un algoritmo para encontrar el camino más corto entre dos vértices en un grafo dirigido.
 DESCRIPCION:  
 
-Esta práctica consiste en desarrollar un algoritmo para encontrar el camino más corto entre dos vértices en un grafo no dirigido. Utilizando el método de búsqueda de camino más corto sobre una representación de lista de adyacencia del grafo, el algoritmo determina la ruta óptima entre dos puntos en el grafo.
+Esta práctica consiste en desarrollar un algoritmo para encontrar el camino más corto entre dos vértices en un grafo dirigido. Utilizando el método de búsqueda de camino más corto sobre una representación de lista de adyacencia del grafo, el algoritmo determina la ruta óptima entre dos puntos en el grafo.
 
 INSTRUCCIONES DE INSTALACION:
 

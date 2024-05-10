@@ -1,7 +1,7 @@
 import java.util.*;
 
 /**
- * Representación de un grafo dirigido utilizando una lista de adyacencia.
+ * @author Genesis Chicaiza
  *
  * @param <V> El tipo de los vértices del grafo.
  */
@@ -108,7 +108,7 @@ public class Graph<V> {
             }
         }
 
-        return null; // No se encontró un camino entre v1 y v2.
+        return null; // No se encuentra un camino entre v1 y v2.
     }
 
     /**

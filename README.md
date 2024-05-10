@@ -1,11 +1,11 @@
 # practicaaaafinal5
 TITULO DESCRIPTIVO: 
 
-El código proporciona una implementación de un algoritmo para encontrar el camino más corto entre dos vértices en un grafo dirigido.
+Calculadora de distancia mas corta entre 2 grafos 
 
 DESCRIPCION:  
 
-Esta práctica consiste en desarrollar un algoritmo para encontrar el camino más corto entre dos vértices en un grafo dirigido. Utilizando el método de búsqueda de camino más corto sobre una representación de lista de adyacencia del grafo, el algoritmo determina la ruta óptima entre dos puntos en el grafo.
+Contiene una implementación en Java de un algoritmo para encontrar el camino más corto entre dos vértices en un grafo dirigido. El algoritmo utiliza Budqueda de camino mas corto (BFS) para explorar el grafo y encontrar la ruta más corta entre los vértices dados.
 
 INSTRUCCIONES DE INSTALACION:
 
@@ -17,9 +17,12 @@ INSTRUCCIONES DE INSTALACION:
 
 ESTRUCTURA DEL CODIGO: 
 
-- Se verifica si los vértices de inicio (v1) y destino (v2) están presentes en el grafo. Si alguno de ellos no está presente, significa que no hay un camino posible entre ellos y se devuelve null.
-- Se inicializan tres estructuras de datos: Una cola que realiza el recorrido en anchura. Un mapa que registrará los predecesores. y un conjunto que registrará los vértices que se han visitado durante el proceso de búsqueda.
-- En resumen, la lógica del código consiste en realizar un recorrido en anchura en el grafo desde el vértice de inicio hasta el vértice destino, registrando los predecesores de cada vértice a medida que se avanza. Una vez que se encuentra el vértice destino, se reconstruye el camino más corto retrocediendo a través de los predecesores registrados.
+- La implementación consiste en una clase principal llamada Graph<V>, que representa un grafo dirigido y contiene métodos clave como: 
+- addVertex(V v) para agregar vértices, 
+- addEdge(V v1, V v2) para agregar arcos entre vértices.
+- shortestPath(V v1, V v2) para encontrar el camino más corto entre dos vértices utilizando BFS. 
+- La clase también incluye métodos auxiliares como obtainAdjacents(V v) para obtener vértices adyacentes y reconstructPath(V v1, V v2, Map<V, V> parentMap) para reconstruir el camino más corto. 
+- Esta implementación proporciona una base sólida para trabajar con grafos dirigidos y encontrar caminos más cortos en aplicaciones como planificación de rutas y navegación.
 
 LICENCIA: 
 

@@ -1,11 +1,11 @@
 # practicaaaafinal5
 TITULO DESCRIPTIVO: 
 
-Calculadora de distancia mas corta entre 2 grafos 
+Calculadora de distancia mas corta entre 2 grafos dirigidos 
 
 DESCRIPCION:  
 
-Contiene una implementación en Java de un algoritmo para encontrar el camino más corto entre dos vértices en un grafo dirigido. El algoritmo utiliza Budqueda de camino mas corto (BFS) para explorar el grafo y encontrar la ruta más corta entre los vértices dados.
+Contiene una implementación en Java de un algoritmo llamado Budqueda de anchura (BFS) para encontrar el camino más corto entre dos vértices en un grafo dirigido.  
 
 INSTRUCCIONES DE INSTALACION:
 

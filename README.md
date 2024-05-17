@@ -1,4 +1,7 @@
 # practicaaaafinal5
+AUTORA:
+Genesis Chicaiza
+
 TITULO DESCRIPTIVO: 
 
 Calculadora de distancia mas corta entre 2 grafos dirigidos 

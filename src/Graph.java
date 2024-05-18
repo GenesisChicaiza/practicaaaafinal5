@@ -41,7 +41,6 @@ public class Graph<V> {
      *
      * @param v vértice del que se obtienen los adyacentes.
      * @return conjunto de vértices adyacentes.
-     * @throws Exception si el vértice dado no está presente en el grafo.
      */
     public Set<V> obtainAdjacents(V v) throws Exception {
         if (!adjacencyList.containsKey(v)) {
